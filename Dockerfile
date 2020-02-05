@@ -1,11 +1,6 @@
 FROM ubuntu:12.04
 MAINTAINER fernandocampagna01@gmail.com
 
-##ENV###
-
-ENV http_proxy=http://10.1.103.249:3128
-ENV https_proxy=http://10.1.103.249:3128
-
 
 ###RUN###
 RUN apt-get update
